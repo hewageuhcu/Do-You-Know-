@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
+     // Get the button and facts section
+    const showFactsBtn = document.getElementById('showFactsBtn');
+    const pyramidFacts = document.querySelector('.pyramid-facts');
+
+    // Add click event for the button
+    showFactsBtn.addEventListener('click', function() {
+        pyramidFacts.style.display = 'block';
+       
+
     // Add click event listeners to all fact boxes
     const facts = document.querySelectorAll('.fact');
     
