@@ -1,6 +1,10 @@
-/* Base styles */
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
-/* Add these new styles to your existing styles.css */
 .welcome-section {
     text-align: center;
     max-width: 800px;
@@ -27,12 +31,6 @@
 
 #showFactsBtn:hover {
     background-color: #a88f00;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
 }
 
 .pyramid-facts {
@@ -73,7 +71,6 @@ h1 {
     color: #666;
 }
 
-/* Responsive design */
 @media (max-width: 850px) {
     .pyramid-facts {
         margin: 10px;
