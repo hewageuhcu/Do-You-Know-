@@ -1,4 +1,34 @@
 /* Base styles */
+
+/* Add these new styles to your existing styles.css */
+.welcome-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.welcome-section h3 {
+    color: #8b6b23;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#showFactsBtn {
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #c4a000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#showFactsBtn:hover {
+    background-color: #a88f00;
+}
+
 body {
     margin: 0;
     padding: 0;
